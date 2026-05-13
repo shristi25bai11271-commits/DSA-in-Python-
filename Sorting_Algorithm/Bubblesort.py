@@ -1,9 +1,7 @@
 #Creating bubble sort algorithm ----
+
 def Bubble_sort(mylist):
-#Create a List 
-
-
-#len(mylist) counts how many elements are in the list. Here value 5 is stored in variable n.
+#len(mylist) counts how many elements are in the list. 
        n = len(mylist) #n=5
 #Outer Loop -----
 #It controls how many passes bubble sort performs.
