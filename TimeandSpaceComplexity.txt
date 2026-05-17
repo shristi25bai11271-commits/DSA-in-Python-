@@ -1,0 +1,31 @@
+Time and Space Complexity
+
+Time Complexity measures how the execution time of an algorithm increases as the input size grows. 
+Space Complexity measures how much extra memory an algorithm uses during execution.
+
+Sorting algorithms have different performance levels depending on their approach.
+Some algorithms like Bubble Sort are simple but slower, while advanced algorithms like Merge Sort and Quick Sort are much more efficient for large datasets.
+Understanding complexity helps in choosing the right algorithm for different situations and improves problem-solving skills in Data Structures and Algorithms.
+
+🔰🔰🔰🔰
+| Algorithm      | Best Time  | Average Time | Worst Time | Space Complexity | Stable  |
+| -------------- | ---------- | ------------ | ---------- | ---------------- | ------- |
+| Bubble Sort    | O(n)       | O(n²)        | O(n²)      | O(1)             | Yes     |
+| Selection Sort | O(n²)      | O(n²)        | O(n²)      | O(1)             | No      |
+| Insertion Sort | O(n)       | O(n²)        | O(n²)      | O(1)             | Yes     |
+| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)             | Yes     |
+| Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         | No      |
+| Counting Sort  | O(n + k)   | O(n + k)     | O(n + k)   | O(k)             | Yes     |
+| Radix Sort     | O(nk)      | O(nk)        | O(nk)      | O(n + k)         | Yes     |
+
+
+🔰🔰🔰🔰
+| Algorithm      | Description                                                                                                                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bubble Sort    | Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. It is simple to understand but inefficient for large datasets.                           |
+| Selection Sort | Selection Sort repeatedly finds the minimum element from the unsorted part and places it at the correct position. It performs fewer swaps but still has poor performance on large inputs. |
+| Insertion Sort | Insertion Sort builds the sorted array one element at a time by inserting elements into their correct position. It works efficiently for small or nearly sorted datasets.                 |
+| Merge Sort     | Merge Sort uses the divide-and-conquer approach by splitting the array into smaller parts and merging them in sorted order. It is efficient and stable for large datasets.                |
+| Quick Sort     | Quick Sort selects a pivot element and partitions the array around it. It is one of the fastest sorting algorithms in practice but can perform poorly in the worst case.                  |                                                      |                         |
+| Counting Sort  | Counting Sort counts the occurrences of elements and reconstructs the sorted array. It is efficient when the input range is limited.                                                      |
+| Radix Sort     | Radix Sort sorts numbers digit by digit using another stable sorting algorithm. It is efficient for sorting integers with fixed digit lengths.                                            |
